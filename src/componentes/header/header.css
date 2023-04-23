@@ -1,0 +1,25 @@
+header,
+header a {
+  background-color: wheat;
+  color: brown;
+  text-decoration: none;
+}
+.header {
+  margin: 0 auto;
+  max-width: 1000px;
+  font-weight: bold;
+  justify-content: space-around;
+  place-items: center;
+  display: flex;
+}
+
+.logo {
+  max-width: 75px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  padding: 1rem;
+  gap: 2rem;
+}

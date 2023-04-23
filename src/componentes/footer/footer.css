@@ -1,0 +1,28 @@
+footer {
+  position: relative;
+  width: 100vw;
+  background-color: #000;
+  color: #fff;
+  bottom: 0;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  place-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  height: 200px;
+}
+
+.info div {
+  text-align: start;
+  max-width: 25ch;
+}
+
+.autoral {
+  text-align: center;
+  padding: 1rem;
+}
