@@ -1,18 +1,54 @@
 .apresentacao {
-  height: 500px;
-  background-color: wheat;
+  height: 700px;
+  background-color: #ffdb88;
   background-image: url("../../assets/banner-home.png");
   background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
   position: relative;
 }
 
 .apresentacao h1 {
   position: absolute;
-  font-size: 5rem;
+  font-size: 7rem;
   color: white;
   max-width: 18ch;
   left: calc(50vw - 9ch);
-  top: 200px;
+  top: 280px;
   text-shadow: 2px 3px black;
+}
+
+.home-grid section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  align-items: center;
+}
+
+.home-grid section:nth-of-type(even) div {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.home-grid div {
+  font-size: 1.25em;
+}
+
+.home-grid img {
+  max-width: 100%;
+}
+
+.home-grid h2 {
+  font-size: 2.5rem;
+}
+
+.home-grid h3 {
+  font-style: italic;
+}
+
+.home-grid p {
+  max-width: 55ch;
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: justify;
 }

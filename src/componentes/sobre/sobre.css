@@ -1,0 +1,61 @@
+.apresentacao-sobre {
+  height: 550px;
+  background-color: #ffdb88;
+  background-image: url("../../assets/banner-sobre.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.apresentacao-sobre h1 {
+  position: absolute;
+  font-size: 7rem;
+  color: white;
+  max-width: 11ch;
+  left: calc(50vw - 5.5ch);
+  top: 225px;
+  text-shadow: 2px 3px black;
+}
+
+.SobreNos {
+  padding: 5rem 1rem;
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+
+.SobreNos h2 {
+  font-size: 2rem;
+}
+
+.SobreNos h3 {
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.SobreNos p {
+  max-width: 100ch;
+  margin: 0 auto;
+  font-weight: 500;
+  padding: 0.5rem;
+  font-size: 1.15rem;
+}
+
+.grid-sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
+
+.grid-sobre img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (width <= 768px) {
+  .grid-sobre {
+    grid-template-columns: 1fr;
+  }
+}

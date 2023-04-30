@@ -22,9 +22,7 @@ const Footer = () => {
           <p>10:00 - 22:00</p>
         </div>
       </section>
-      <p className="autoral">
-        Gelateria Orgulhosamente desenvolvida por Gabriel Emidio Alves
-      </p>
+      <p className="autoral">Gelateria desenvolvida por Gabriel Emidio Alves</p>
     </footer>
   );
 };
